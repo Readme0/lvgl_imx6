@@ -15,6 +15,7 @@ MAINSRC = ./main.c
 include $(LVGL_DIR)/lvgl/lvgl.mk
 include $(LVGL_DIR)/lv_drivers/lv_drivers.mk
 include $(LVGL_DIR)/lv_demos/lv_demo.mk
+include $(LVGL_DIR)/user_apps/user_apps.mk
 
 OBJEXT ?= .o
 
