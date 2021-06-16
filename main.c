@@ -33,7 +33,7 @@ int main(void)
     disp_drv.flush_cb = fbdev_flush;
     lv_disp_drv_register(&disp_drv);
 
-    #if 0
+    #if 1
     /*Initialize and register a input driver*/
     evdev_init();
     static lv_indev_drv_t indev_drv;
