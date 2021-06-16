@@ -7,7 +7,7 @@
  * COPY THIS FILE AS lv_demo_conf.h
  */
 
-#if 0 /*Set it to "1" to enable the content*/
+#if 1 /*Set it to "1" to enable the content*/
 
 #ifndef LV_EX_CONF_H
 #define LV_EX_CONF_H
@@ -25,7 +25,7 @@
  *********************/
 
 /*Show some widget*/
-#define LV_USE_DEMO_WIDGETS        0
+#define LV_USE_DEMO_WIDGETS        1
 #if LV_USE_DEMO_WIDGETS
 #define LV_DEMO_WIDGETS_SLIDESHOW  0
 #endif
@@ -43,7 +43,7 @@
 #define LV_USE_DEMO_STRESS      0
 
 /*Music player demo*/
-#define LV_USE_DEMO_MUSIC      1
+#define LV_USE_DEMO_MUSIC      0
 #if LV_USE_DEMO_MUSIC
 # define LV_DEMO_MUSIC_LANDSCAPE 0
 # define LV_DEMO_MUSIC_LARGE     0
